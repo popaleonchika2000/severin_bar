@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+.picture{
+    background: url(/picture.svg);
+    background-size: cover;
+    background-position: center;
+}
+.buttonGlass{
+    background-color: rgb(16, 170, 85);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+.buttonGlass:hover {
+    opacity: 0.1;
+}
+
+.buttonBig{
+    background-color: rgb(16, 170, 85);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.buttonBig:hover{
+    opacity: 0.5;
+}
+
+
