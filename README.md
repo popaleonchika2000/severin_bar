@@ -43,8 +43,6 @@ SEVERIN — это цифровой портал легендарного зав
 | React | Frontend-библиотека |
 | Tailwind CSS | Стилизация и неоновые эффекты |
 | PostgreSQL | Основная база данных |
-| Supabase (опционально) | Backend как сервис |
-| REST API | Взаимодействие с базой данных |
 
 ---
 
@@ -58,26 +56,10 @@ SEVERIN — это цифровой портал легендарного зав
 
 ```bash
 # Клонировать репозиторий
-git clone https://github.com/yourusername/severin-bar.git
+git clone https://github.com/popaleonchika2000/severin_bar.git
 
 # Перейти в папку проекта
 cd severin-bar
-
-# Установить зависимости
-npm install
-
-# Создать файл с переменными окружения
-cp .env.example .env
-
-# Настроить подключение к базе данных в .env
-# Пример:
-# DATABASE_URL=postgresql://user:password@localhost:5432/severin_db
-
-# Запустить миграции (создать таблицы)
-npm run migrate
-
-# Заполнить базу начальными данными (опционально)
-npm run seed
 
 # Запустить проект в режиме разработки
 npm run dev
