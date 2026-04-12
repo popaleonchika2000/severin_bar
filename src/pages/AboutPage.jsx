@@ -32,7 +32,7 @@ const AboutPage = () => {
     },
     {
       id: 4,
-      src: "https://s.zagranitsa.com/images/articles/8606/870x486/9d389c9b3eb22e3fc69a1e42f15712f0.jpg?1580984458",
+      src: "https://comandante-event.ru/wp-content/uploads/2022/10/barmen-shou-na-korporativ-6.jpg",
       title: "Коктейльные шоу",
       description: "Мастерство наших барменов"
     },
@@ -44,7 +44,7 @@ const AboutPage = () => {
     },
     {
       id: 6,
-      src: "https://i.ytimg.com/vi/Y0EEhfKH7ss/maxresdefault.jpg",
+      src: "https://inspiregroup.pro/wp-content/uploads/2024/09/eskiz-vid6-1.jpg",
       title: "VIP-зона",
       description: "Отдельные кабинки с неоновой подсветкой"
     }
