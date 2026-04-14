@@ -1,5 +1,6 @@
 // AboutPage.jsx
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Star, Award, Clock, Palette, Users, Coffee, Sparkles, PartyPopper, Music, Camera } from 'lucide-react';
 
 const AboutPage = () => {
@@ -84,11 +85,11 @@ const AboutPage = () => {
               SEVERIN
             </h1>
             <nav className="flex flex-wrap justify-center gap-4 md:gap-8 text-lg font-semibold">
-              <a href="/" className="hover:text-fuchsia-300 transition-colors hover:drop-shadow-[0_0_8px_rgba(255,0,255,0.8)]">ГЛАВНАЯ</a>
-              <a href="/news" className="hover:text-fuchsia-300 transition-colors hover:drop-shadow-[0_0_8px_rgba(255,0,255,0.8)]">НОВОСТИ</a>
-              <a href="/contacts" className="hover:text-fuchsia-300 transition-colors hover:drop-shadow-[0_0_8px_rgba(255,0,255,0.8)]">КОНТАКТЫ</a>
-              <a href="/about" className="text-fuchsia-300 underline underline-offset-4 drop-shadow-[0_0_8px_rgba(255,0,255,0.8)]">О НАС</a>
-              <a href="/menu" className="hover:text-fuchsia-300 transition-colors hover:drop-shadow-[0_0_8px_rgba(255,0,255,0.8)]">МЕНЮ</a>
+              <Link to="/" className="hover:text-fuchsia-300 transition-colors hover:drop-shadow-[0_0_8px_rgba(255,0,255,0.8)]">ГЛАВНАЯ</Link>
+              <Link to="/news" className="hover:text-fuchsia-300 transition-colors hover:drop-shadow-[0_0_8px_rgba(255,0,255,0.8)]">НОВОСТИ</Link>
+              <Link to="/contacts" className="hover:text-fuchsia-300 transition-colors hover:drop-shadow-[0_0_8px_rgba(255,0,255,0.8)]">КОНТАКТЫ</Link>
+              <Link to="/about" className="text-fuchsia-300 underline underline-offset-4 drop-shadow-[0_0_8px_rgba(255,0,255,0.8)]">О НАС</Link>
+              <Link to="/menu" className="hover:text-fuchsia-300 transition-colors hover:drop-shadow-[0_0_8px_rgba(255,0,255,0.8)]">МЕНЮ</Link>
             </nav>
           </div>
         </div>
@@ -267,11 +268,11 @@ const AboutPage = () => {
         <div className="container mx-auto px-4">
           <div className="text-center">
             <div className="flex flex-wrap justify-center gap-6 mb-6">
-              <a href="/" className="hover:text-fuchsia-300 transition-colors hover:drop-shadow-[0_0_8px_rgba(255,0,255,0.8)]">Главная</a>
-              <a href="/news" className="hover:text-fuchsia-300 transition-colors hover:drop-shadow-[0_0_8px_rgba(255,0,255,0.8)]">Новости</a>
-              <a href="/contacts" className="hover:text-fuchsia-300 transition-colors hover:drop-shadow-[0_0_8px_rgba(255,0,255,0.8)]">Контакты</a>
-              <a href="/about" className="text-fuchsia-300 drop-shadow-[0_0_8px_rgba(255,0,255,0.8)]">О нас</a>
-              <a href="/menu" className="hover:text-fuchsia-300 transition-colors hover:drop-shadow-[0_0_8px_rgba(255,0,255,0.8)]">Меню</a>
+              <Link to="/" className="hover:text-fuchsia-300 transition-colors hover:drop-shadow-[0_0_8px_rgba(255,0,255,0.8)]">Главная</Link>
+              <Link to="/news" className="hover:text-fuchsia-300 transition-colors hover:drop-shadow-[0_0_8px_rgba(255,0,255,0.8)]">Новости</Link>
+              <Link to="/contacts" className="hover:text-fuchsia-300 transition-colors hover:drop-shadow-[0_0_8px_rgba(255,0,255,0.8)]">Контакты</Link>
+              <Link to="/about" className="text-fuchsia-300 drop-shadow-[0_0_8px_rgba(255,0,255,0.8)]">О нас</Link>
+              <Link to="/menu" className="hover:text-fuchsia-300 transition-colors hover:drop-shadow-[0_0_8px_rgba(255,0,255,0.8)]">Меню</Link>
             </div>
             <p className="text-gray-500 text-sm">
               © {new Date().getFullYear()} SEVERIN. Где каждая капля сияет неоновым светом.
